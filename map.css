@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Montserrat";
+}
+
+
+body{
+  background-color: #ddd;
+  /* width: 100%; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  /* background-color: white; */
+  width: 100%;
+  max-width: 700px;
+}
+
+/*MAIN BOSHLANDI*/
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid; color: black;
+  border: none;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin-top: -40px;
+}
+
+.main-1 h1{
+  margin-top: 20px;
+}
+.main-1 h1:hover{
+ background-color: yellow;
+ color: rgb(64, 35, 192);
+ cursor: pointer;
+}
+
+.main-2{
+  padding: 0 16px;
+  width: 80%;
+  padding: 20px 0;
+  border: 1px solid rgb(194, 182, 182);
+  height: 21vh;
+  margin-top: 15px;
+}
+
+.inp{
+  width: 100%;
+}
+
+.main-3 button{
+background-color: #16a3b7;
+border: none;
+color: white;
+width: 40px;
+height: 40px;
+}
+
+.main-3 {
+  display: flex;
+  padding: 0 16px;
+}
+
+#btn {
+  width: 100%;
+  height: 40px;
+  background-color: #16a3b7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn:hover{
+ background-color: rgb(0, 255, 64);
+ color: brown;
+}
+.main-4{
+  margin: 10px;
+  padding: 0px 5px;
+}
+
+/*MAIN TUGAI*/
+
+/*CENTER BOSHLANDI*/
+.center{
+  display: flex;
+  align-items: center;justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text h1:hover{
+ background-color: aqua;
+ color: rgb(37, 37, 7);
+ cursor: pointer;
+}
+
+.btn button{
+  width: 180px;
+  margin: 0px 5px;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  background-color: #16a3b7;
+  color: white;
+}
+.btn button:hover{
+  background-color: rgb(252, 121, 98);
+  color: yellow;
+  border: none;
+}
+/*CENTER TUGADI*/
+
+/*MATN BOSHLANDI JAVA SCRIPT*/
+.matn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   width: 100%;
+  height: 40px;
+  border: 1px solid rgb(192, 192, 202);
+  color: black;
+  padding: 10px 15px;
+  margin: 5px;
+  /* border: none; */
+  list-style: none;
+}
+
+#text{
+  margin-top: 10px;
+  width: 80%;
+}
+
+.matn:hover{
+  background-color: rgb(79, 79, 228);
+  color: yellow;
+  cursor: pointer;
+}
+
+.matn button{
+  /* width: 50px;
+  height: 30px; */
+  /* background-color: tomato; */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.matn button i {
+font-size: 20px;
+color: red;
+}
+.edit{
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #ecfdd8;
+  width: 50px;
+  height: 30px;
+}
+.matn button:hover{
+  background-color: chartreuse;
+  color:crimson;
+}
+/*MATN TUGADI JAVA SCRIPT*/
+
+/*BUTTON BOSHLANDI*/
+
+.butt{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.butt button{
+  width: 265px;
+  height: 40px;
+  margin: 0 20px;
+  background-color: rgb(250, 89, 89);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.butt button:hover{
+  background-color: rgb(253, 222, 48);
+  color: rgb(10, 41, 10);
+}
